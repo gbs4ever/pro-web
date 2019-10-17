@@ -5,9 +5,9 @@ module.exports = {
 	url: 'https://portfolio.smakosh.com',
 	legalName: 'Simcha Greenbaum',
 	defaultDescription:
-		'I’m Sim Software engineer with a passion for learning and building, possessing experience in Ruby on Rails, JavaScript, React and Redux.',
+		'I’m Software engineer with a passion for learning and building, possessing experience in Ruby on Rails, JavaScript, React and Redux.',
 	socialLinks: {
-		twitter: 'http://www.twitter.com/smakosh',
+		twitter: 'http://www.twitter.com/simgreenbaum',
 		github: 'https://github.com/simgreenbaum',
 		linkedin: 'https://www.linkedin.com/in/simcha-greenbaum/',
 	},
@@ -16,7 +16,7 @@ module.exports = {
 	backgroundColor: '#6b63ff',
 	social: {
 		facebook: 'appId',
-		twitter: '@smakosh',
+		twitter: '@simgreenbaum',
 	},
 	address: {
 		city: 'City',
