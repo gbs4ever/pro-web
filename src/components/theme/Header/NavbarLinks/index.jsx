@@ -15,6 +15,13 @@ const NavbarLinks = ({ desktop }) => (
 		>
 			Blog
 		</a>
+		<a
+			target="_blank"
+			rel="noopener noreferrer"
+			href="https://learn.co/sim/resume"
+		>
+			Resume
+		</a>
 	</Wrapper>
 )
 
