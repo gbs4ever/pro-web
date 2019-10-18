@@ -2,7 +2,7 @@ module.exports = {
 	defaultTitle: 'Simcha Greenbaum',
 	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
 	author: 'Simcha Greenbaum',
-	url: 'https://portfolio.smakosh.com',
+	url: 'www.simchagreenbaum.dev',
 	legalName: 'Simcha Greenbaum',
 	defaultDescription:
 		'I’m Software engineer with a passion for learning and building, possessing experience in Ruby on Rails, JavaScript, React and Redux.',
