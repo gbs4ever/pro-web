@@ -72,12 +72,11 @@ const ContactForm = ({
 		)}
 		{values.success && (
 			// <InputField>
-				<Center>
-					<h4 className="success-message">
-						Your message has been successfully sent, I will get back to you
-						ASAP!
-					</h4>
-				</Center>
+			<Center>
+				<h4 className="success-message">
+					Your message has been successfully sent, I will get back to you ASAP!
+				</h4>
+			</Center>
 			// </InputField>
 		)}
 		<Center>
@@ -117,19 +116,17 @@ export default withFormik({
 					)
 					.join('&')
 			}
-			await fetch('/?no-cache=1',
-				{
-					method: 'POST',
-					headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-					body: encode({
-						'form-name': 'portfolio-dev',
-						name,
-						email,
-						message,
-						'g-recaptcha-response': recaptcha,
-					}),
-				}
-			)
+			await fetch('/?no-cache=1', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+				body: encode({
+					'form-name': 'portfolio-dev',
+					name,
+					email,
+					message,
+					'g-recaptcha-response': recaptcha,
+				}),
+			})
 			await setSubmitting(false)
 			await setFieldValue('success', true)
 			setTimeout(() => resetForm(), 2000)
