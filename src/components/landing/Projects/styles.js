@@ -27,7 +27,7 @@ export const Item = styled.div`
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.11);
 
 	h4 {
-		color: #212121;
+		color: #4ab6d4;
 	}
 
 	p {

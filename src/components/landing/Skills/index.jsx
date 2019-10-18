@@ -17,14 +17,13 @@ export const Skills = () => (
 					revenue as well as overall success.
 				</p>
 
-				<h3>
-					Skills:
-					<span>
-						Ruby, Rails, PostgreSQL, WSL, JavaScript, jQuery, React, Redux
-					</span>
-				</h3>
+				<p>
+					<strong>Skills:</strong> Ruby, Rails, PostgreSQL, WSL, JavaScript,
+					jQuery, React, Redux{' '}
+				</p>
+
 				<Button as={AnchorLink} href="#contact">
-					Hire me
+					Contact me
 				</Button>
 			</Details>
 		</SkillsWrapper>

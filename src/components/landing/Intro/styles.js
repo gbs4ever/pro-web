@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
 	padding-bottom: 4rem;
 	background-image: url('../illustrations/overlay.svg');
 	background-size: contain;
+	background-color: #313030;
 	background-position: right top;
 	background-repeat: no-repeat;
 `
@@ -13,7 +14,6 @@ export const IntroWrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-
 	@media (max-width: 960px) {
 		flex-direction: column;
 	}
@@ -22,15 +22,22 @@ export const IntroWrapper = styled.div`
 export const Details = styled.div`
 	flex: 1;
 
+	color: #4ab6d4;
 	@media (max-width: 960px) {
 		width: 100%;
 		margin-bottom: 2rem;
 	}
-
+	h2 {
+		padding: 10px;
+	}
+	h2:hover {
+		border-bottom-color: transparent;
+		color: #1cb495 !important;
+		text-decoration: none;
+	}
 	h1 {
 		margin-bottom: 2rem;
 		font-size: 36pt;
-		color: #212121;
 
 		@media (max-width: 680px) {
 			font-size: 30pt;

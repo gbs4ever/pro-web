@@ -17,6 +17,15 @@ export const Button = styled.button`
 
 	&:focus {
 		outline: none;
+		border-bottom-color: transparent;
+		backgroundcolor: #1cb495 !important;
+	}
+	&:hover {
+		outline: none;
+
+		color: #fff !important;
+		background: #1cb495;
+		border-radius: 5px;
 	}
 
 	&:disabled {

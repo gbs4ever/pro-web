@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
 	background-size: contain;
 	background-position: left top;
 	background-repeat: no-repeat;
+	color: #4ab6d4;
 `
 
 export const SkillsWrapper = styled.div`
@@ -38,7 +39,7 @@ export const Details = styled.div`
 		font-size: 20pt;
 		font-weight: normal;
 		line-height: 1.3;
-		color: #707070;
+		color: #4ab6d4;
 	}
 `
 

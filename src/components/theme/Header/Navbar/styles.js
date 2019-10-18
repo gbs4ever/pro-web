@@ -7,6 +7,16 @@ export const Wrapper = styled.div`
 	justify-content: space-between;
 
 	a {
-		color: #212121;
+		color: #4ab6d4;
+		padding: 7px 7px;
+		top: 0;
+		flex-direction: row;
+		margin: 2px;
+		overflow: hidden;
+	}
+	a:hover {
+		color: #fff !important;
+		background: #61dafb;
+		border-radius: 5px;
 	}
 `

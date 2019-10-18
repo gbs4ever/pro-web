@@ -11,8 +11,8 @@ export const Intro = () => (
 		<IntroWrapper as={Container}>
 			<Details>
 				<h2>
-					Do you need someone who can take you technological needs to the next
-					level ?
+					Do you need someone who can help take your technological needs to the
+					next level?
 				</h2>
 				<h4 />
 				<Button as={AnchorLink} href="#contact">
