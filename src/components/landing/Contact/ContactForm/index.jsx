@@ -71,14 +71,14 @@ const ContactForm = ({
 			</InputField>
 		)}
 		{values.success && (
-			<InputField>
+			// <InputField>
 				<Center>
 					<h4 className="success-message">
 						Your message has been successfully sent, I will get back to you
 						ASAP!
 					</h4>
 				</Center>
-			</InputField>
+			// </InputField>
 		)}
 		<Center>
 			<Button secondary type="submit" disabled={isSubmitting}>
