@@ -117,8 +117,7 @@ export default withFormik({
 					)
 					.join('&')
 			}
-			await fetch(
-				'https://back-end-server.herokuapp.com/api/contacts/?no-cache=1',
+			await fetch('/?no-cache=1',
 				{
 					method: 'POST',
 					headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
