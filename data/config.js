@@ -1,6 +1,7 @@
 module.exports = {
 	defaultTitle: 'Simcha Greenbaum',
-	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+	logo:
+		'https://www.namecheap.com/logo-maker/app/share?c=iconAbove&l=2e7a0b90-f68e-11e9-adb7-b512ff026890',
 	author: 'Simcha Greenbaum',
 	url: 'www.simchagreenbaum.dev',
 	legalName: 'Simcha Greenbaum',
@@ -19,13 +20,13 @@ module.exports = {
 		twitter: '@simgreenbaum',
 	},
 	address: {
-		city: 'City',
+		city: 'NY',
 		region: 'Region',
 		country: 'Country',
 		zipCode: 'ZipCode',
 	},
 	contact: {
-		email: 'email',
+		email: 'simchagreenbaum@gmail.com',
 		phone: 'phone number',
 	},
 	foundingDate: '2018',
