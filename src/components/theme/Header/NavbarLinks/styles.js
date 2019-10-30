@@ -32,6 +32,8 @@ export const Wrapper = styled.div`
 					&:last-child {
 							margin-bottom: unset;
 					}
+				
+					
 			}
 	`}
 `

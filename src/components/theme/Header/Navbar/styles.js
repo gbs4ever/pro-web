@@ -19,4 +19,10 @@ export const Wrapper = styled.div`
 		background: #61dafb;
 		border-radius: 5px;
 	}
+	img {
+		margin: 5px;
+		border-radius: 5px;
+		width: 300px;
+		height: 85px;
+	}
 `
