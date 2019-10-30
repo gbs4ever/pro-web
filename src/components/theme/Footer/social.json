@@ -1,19 +1,25 @@
 [
   {
     "id": 0,
+    "name": "Email",
+    "link": "mailto:simchagreenbaum@gmail.com",
+    "icon": "/icons/mail_appt.png"
+  },
+  {
+    "id": 1,
     "name": "linkden",
     "link": "https://www.linkedin.com/in/simcha-greenbaum/",
     "icon": "/icons/linkden.svg"
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Github",
     "link": "https://github.com/gbs4ever",
     "icon": "/icons/github.svg"
   },
 
   {
-    "id": 2,
+    "id": 3,
     "name": "Twitter",
     "link": "https://twitter.com/simgreenbaum",
     "icon": "/icons/twitter.svg"
