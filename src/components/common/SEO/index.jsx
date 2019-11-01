@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Thumbnail from 'Static/thumbnail/thumbnail.png'
+import Thumbnail from 'Static/thumbnail/web.png'
 import {
 	url,
 	defaultDescription,
