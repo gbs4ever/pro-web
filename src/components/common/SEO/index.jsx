@@ -58,12 +58,12 @@ export const SEO = ({
 			<meta name="description" content={description} />
 			<meta name="image" content={Thumbnail} />
 
-			<meta property="og:url" content={`${url}${location}/?ref=smakosh.com`} />
+			<meta property="og:url" content="www.simchagreenbaum.dev" />
 			<meta property="og:type" content="website" />
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
 			<meta property="og:image" content={Thumbnail} />
-			<meta property="fb:app_id" content={social.facebook} />
+			{/* <meta property="fb:app_id" content={social.facebook} /> */}
 
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:creator" content={socialLinks.twitter} />
