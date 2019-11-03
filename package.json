@@ -3,7 +3,7 @@
   "private": true,
   "description": " Portfolio",
   "version": "0.1.1",
-  "author": "sim",
+  "author": "simcha",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "dotenv": "^6.2.0",
