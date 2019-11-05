@@ -72,11 +72,12 @@ const ContactForm = ({
 		)}
 		{values.success && (
 			<InputField>
-			<Center>
-				<h4 className="success-message">
-					Your message has been successfully sent, I will get back to you ASAP!
-				</h4>
-			</Center>
+				<Center>
+					<h4 className="success-message">
+						Your message has been successfully sent, I will get back to you
+						ASAP!
+					</h4>
+				</Center>
 			</InputField>
 		)}
 		<Center>
@@ -125,7 +126,6 @@ export default withFormik({
 					email,
 					message,
 					'g-recaptcha-response': recaptcha,
-					z
 				}),
 			})
 			await setSubmitting(false)
