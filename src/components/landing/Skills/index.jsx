@@ -19,7 +19,7 @@ export const Skills = () => (
 
 				<p>
 					<strong>Skills:</strong> Ruby, Rails, PostgreSQL, WSL, JavaScript,
-					jQuery, React, Redux{' '}
+					jQuery, Python,Docker,React, Redux{' '}
 				</p>
 
 				<Button as={AnchorLink} href="#contact">
