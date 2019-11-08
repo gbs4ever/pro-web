@@ -16,21 +16,21 @@ import {
 import { Details, Thumbnail } from './styles'
 
 export const Testimonials = () => (
-	<MDBContainer>
-		<section className="text-center my-5">
-			<h2 className="h1-responsive font-weight-bold my-5">Testimonials</h2>
+	<MDBContainer id="testimonials">
+		<Details>
+			<section className="text-center my-5">
+				<h2 className="h1-responsive font-weight-bold my-5">Testimonials</h2>
 
-			<MDBCarousel
-				activeItem={1}
-				length={2}
-				slide
-				// testimonial
-				showControls
-				interval={false}
-				showIndicators={false}
-				className="no-flex"
-			>
-				<Details>
+				<MDBCarousel
+					activeItem={1}
+					length={2}
+					slide
+					// testimonial
+					showControls
+					interval={false}
+					showIndicators={false}
+					className="no-flex"
+				>
 					<MDBCarouselInner>
 						<MDBCarouselItem itemId="1">
 							<img src="" className="rounded-circle img-fluid" alt="" />
@@ -66,8 +66,8 @@ export const Testimonials = () => (
 							<MDBIcon icon="star" className="blue-text" />
 						</MDBCarouselItem>
 					</MDBCarouselInner>
-				</Details>
-			</MDBCarousel>
-		</section>
+				</MDBCarousel>
+			</section>
+		</Details>
 	</MDBContainer>
 )
