@@ -24,6 +24,7 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-source-graphql": "^2.1.20",
     "gatsby-transformer-sharp": "^2.1.8",
+    "mdbreact": "^4.22.0",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-anchor-link-smooth-scroll": "^1.0.11",
