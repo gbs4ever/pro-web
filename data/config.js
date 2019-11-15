@@ -9,7 +9,7 @@ module.exports = {
 		'I’m Software engineer with a passion for learning and building, possessing experience in Ruby on Rails, JavaScript, React and Redux.',
 	socialLinks: {
 		twitter: 'http://www.twitter.com/simgreenbaum',
-		github: 'https://github.com/simgreenbaum',
+		github: 'https://github.com/gbs4ever',
 		linkedin: 'https://www.linkedin.com/in/simcha-greenbaum/',
 	},
 	googleAnalyticsID: 'UA-88875900-4',
