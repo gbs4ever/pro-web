@@ -4,6 +4,7 @@ import {
   MDBCarousel,
   MDBCarouselInner,
   MDBCarouselItem,
+  MDBView,
   MDBTestimonial,
   MDBRow,
   MDBCol,
@@ -24,19 +25,17 @@ export const Testimonials = () => (
         <MDBCarousel
           activeItem={1}
           length={2}
-          slide
-          // testimonial
-          showControls
-          interval={false}
+          showControls={true}
           showIndicators={false}
+          slide
           className="no-flex"
         >
           <MDBCarouselInner>
             <MDBCarouselItem itemId="1">
               <img
-                src="https://i.imgur.com/hOcGoxbm.jpg"
+                src="https://i.imgur.com/wI5LSTqt.jpg"
                 className="rounded-circle img-fluid"
-                alt="Photo by PhotoMIX Ltd. from Pexels"
+                alt="Photo by Rodolfo Clix from Pexels"
               />
               <p>
                 <MDBIcon icon="quote-left" /> Simcha’s High proficiency was
@@ -54,16 +53,16 @@ export const Testimonials = () => (
             </MDBCarouselItem>
             <MDBCarouselItem itemId="2">
               <img
-                src="https://i.imgur.com/85UzFr4m.jpg"
+                src="https://i.imgur.com/KzYWIyMt.jpg"
                 className="rounded-circle img-fluid"
-                alt="Photo by Tracy Le Blanc from Pexels"
+                alt="Photo by Junior Teixeira from Pexels"
               />
 
               <p>
-                <MDBIcon icon="quote-left" /> Simcha brings HIS expertise to
-                deliver what <strong>YOU</strong> want and doesn’t confuse the
-                two. It’s really <strong>YOUR</strong> project. Simcha is fully
-                transparent and honest.
+                <MDBIcon icon="quote-left" /> Simcha brings <strong>HIS</strong>{' '}
+                expertise to deliver what <strong>YOU</strong> want and doesn’t
+                confuse the two. It’s really <strong>YOUR</strong> project.
+                Simcha is fully transparent and honest.
               </p>
               <h4 className="font-weight-bold">E. W.</h4>
               <h6 className="font-weight-bold my-3">VP of Development</h6>
