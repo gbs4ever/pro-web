@@ -10,7 +10,7 @@ I highly recommend you check this [repository](https://github.com/imorente/gatsb
 
 ## Features
 
-- Eslint/Prettier configured
+- Prettier pre-commit configured
 - Scores 100% on a11y / Performance / PWA / SEO
 - PWA (desktop & mobile)
 - Easy to customize
@@ -20,7 +20,7 @@ I highly recommend you check this [repository](https://github.com/imorente/gatsb
 - Continuous deployment with [Netlify](https://netlify.com)
 - A contact form protected by Google Recaptcha
 - Can be deployed with one click
-- Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
+
 - Fetches your Github pinned projects with most stars (You could customize this if you wish)
 
 ## Prerequisites
