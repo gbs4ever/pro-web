@@ -45,10 +45,7 @@ export const Testimonials = () => (
               <h6 className="font-weight-bold my-3">
                 Founder at Construction Company
               </h6>
-              {console.log(
-                <MDBIcon icon="star" className="blue" />,
-                'test12345'
-              )}
+
               <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
