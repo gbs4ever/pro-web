@@ -49,7 +49,7 @@ export const Testimonials = () => (
                 <MDBIcon icon="star" className="blue" />,
                 'test12345'
               )}
-              <MDBIcon icon="star" className="blue" />
+              <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
@@ -93,7 +93,7 @@ export const Testimonials = () => (
               <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
-              <MDBIcon far icon="star-half" className="blue-text" />
+              <MDBIcon icon="star" className="blue-text" />
             </MDBCarouselItem>
           </MDBCarouselInner>
         </MDBCarousel>
