@@ -80,9 +80,10 @@ export const Testimonials = () => (
                 alt="Partnership warehousing and logistics"
               />
               <p>
-                <MDBIcon icon="quote-left" /> You are not just hiring Simcha as
-                a developer to create a Webapp rather someone who understands
-                your needs and business as a whole.
+                <MDBIcon icon="quote-left" />
+                Simcha is not just a developer who can create a Web app, rather
+                someone who understands your short and long term needs, giving
+                you the roadmap to success.
               </p>
               <h4 className="font-weight-bold">Aharon Wiener</h4>
               <h6 className="font-weight-bold my-3">Director of Operations</h6>
