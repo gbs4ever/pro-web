@@ -43,36 +43,35 @@ export const Projects = () => {
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
       <Grid>
-        {edges.map(({ node }) =>
-          node.isPrivate == true ? (
-            console.log('private repo')
-          ) : (
-            <Item
-              key={node.id}
-              as="a"
-              href={node.url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Card>
-                <Content>
-                  <h4>{node.name}</h4>
-                  <p>{node.description}</p>
-                </Content>
-                <Stats>
-                  <div>
-                    <img src={starIcon} alt="stars" />
-                    <span>{node.stargazers.totalCount}</span>
-                  </div>
-                  <div>
-                    <img src={forkIcon} alt="forks" />
-                    <span>{node.forkCount}</span>
-                  </div>
-                </Stats>
-              </Card>
-            </Item>
-          )
-        )}
+        {edges.map(({ node }) => (
+          //  if(node.isPrivate == true) {
+          //  letnode.url = 'www.ywn.com'
+          //  }
+          <Item
+            key={node.id}
+            as="a"
+            href={node.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card>
+              <Content>
+                <h4>{node.name}</h4>
+                <p>{node.description}</p>
+              </Content>
+              <Stats>
+                <div>
+                  <img src={starIcon} alt="stars" />
+                  <span>{node.stargazers.totalCount}</span>
+                </div>
+                <div>
+                  <img src={forkIcon} alt="forks" />
+                  <span>{node.forkCount}</span>
+                </div>
+              </Stats>
+            </Card>
+          </Item>
+        ))}
       </Grid>
     </Wrapper>
   )

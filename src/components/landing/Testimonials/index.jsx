@@ -24,7 +24,7 @@ export const Testimonials = () => (
 
         <MDBCarousel
           activeItem={1}
-          length={3}
+          length={4}
           showControls={true}
           showIndicators={false}
           slide
@@ -86,6 +86,26 @@ export const Testimonials = () => (
                 you the roadmap to success.
               </p>
               <h4 className="font-weight-bold">Aharon Wiener</h4>
+              <h6 className="font-weight-bold my-3">Director of Operations</h6>
+              <MDBIcon icon="star" className="blue-text" />
+              <MDBIcon icon="star" className="blue-text" />
+              <MDBIcon icon="star" className="blue-text" />
+              <MDBIcon icon="star" className="blue-text" />
+              <MDBIcon icon="star" className="blue-text" />
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="4">
+              <img
+                src="https://i.imgur.com/xZI3uIdb.jpg?1"
+                className="rounded-circle img-fluid"
+                alt="Trasco LLC"
+              />
+              <p>
+                <MDBIcon icon="quote-left" />
+                Simcha diagnosed and assessed our many software issues across
+                multiple platforms. He resolved problems including data
+                integrity, incorrect integration with Netsuite, API errors.
+              </p>
+              <h4 className="font-weight-bold">Dovid Pick</h4>
               <h6 className="font-weight-bold my-3">Director of Operations</h6>
               <MDBIcon icon="star" className="blue-text" />
               <MDBIcon icon="star" className="blue-text" />
