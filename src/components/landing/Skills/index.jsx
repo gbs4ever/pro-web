@@ -18,8 +18,10 @@ export const Skills = () => (
         </p>
 
         <p>
-          <strong>Skills:</strong> Ruby, Rails, PostgreSQL, WSL, JavaScript,
-          jQuery, Python, Docker, React, Redux, HTML/CSS,{' '}
+          <strong>Skills:</strong> Ruby,Rails,SQL,Node.js, JavaScript, jQuery,
+          Docker, React, Redux,
+          <a href="https://www.netsuite.com/portal/home.shtml">NetSuite</a>,
+          <a href="https://ubuntu.com/">Linux(WSL)</a>, HTML/CSS,{' '}
         </p>
 
         <Button as={AnchorLink} href="#contact">
