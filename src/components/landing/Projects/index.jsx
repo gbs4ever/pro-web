@@ -46,7 +46,8 @@ export const Projects = () => {
         {edges.map(({ node }) => (
           //  if(node.isPrivate == true) {
           //  letnode.url = 'www.ywn.com'
-          //  }
+          //  9
+
           <Item
             key={node.id}
             as="a"
