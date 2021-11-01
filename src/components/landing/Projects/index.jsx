@@ -44,20 +44,19 @@ export const Projects = () => {
       <h2>Projects</h2>
       <Grid>
         {edges.map(({ node }) => (
-          //  if(node.isPrivate == true) {
-          //  letnode.url = 'www.ywn.com'
-          //  9
+          //  node.isPrivate == true ? node.url = "#" : "test"
 
           <Item
             key={node.id}
             as="a"
-            href={node.url}
+            href={node.isPrivate == true ? '#' : node.url}
             target="_blank"
             rel="noopener noreferrer"
           >
             <Card>
               <Content>
                 <h4>{node.name}</h4>
+                <p>{node.isPrivate == true ? 'This repor is private' : ''}</p>
                 <p>{node.description}</p>
               </Content>
               <Stats>
