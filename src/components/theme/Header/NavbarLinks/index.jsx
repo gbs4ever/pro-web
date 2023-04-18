@@ -19,7 +19,7 @@ const NavbarLinks = ({ desktop }) => (
     <a
       target="_blank"
       rel="noopener noreferrer"
-      href="https://learn.co/sim/resume"
+      href="/static/SGreenbaum_Resume_2023_1.pdf"
     >
       Resume
     </a>

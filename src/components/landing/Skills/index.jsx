@@ -12,7 +12,7 @@ export const Skills = () => (
       </Thumbnail>
       <Details>
         <p>
-          I'm a Software engineer with 2+ years of technical experience
+          I'm a Software engineer with 5+ years of technical experience
           developing corporate systems that drive productivity, and increase
           revenue as well as overall success.
         </p>
