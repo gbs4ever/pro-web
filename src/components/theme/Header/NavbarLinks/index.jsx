@@ -1,7 +1,7 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-
-import { Wrapper } from './styles'
+import pdf from './SGreenbaum_Resume_2023_1.pdf'
+import { Wrapper } from '../../styles'
 
 const NavbarLinks = ({ desktop }) => (
   <Wrapper desktop={desktop}>
@@ -16,11 +16,7 @@ const NavbarLinks = ({ desktop }) => (
     >
       Blog
     </a>
-    <a
-      target="_blank"
-      rel="noopener noreferrer"
-      href="/static/SGreenbaum_Resume_2023_1.pdf"
-    >
+    <a target="_blank" rel="noopener noreferrer" href={pdf}>
       Resume
     </a>
   </Wrapper>
