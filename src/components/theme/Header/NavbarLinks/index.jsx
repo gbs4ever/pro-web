@@ -1,6 +1,6 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import pdf from './SGreenbaum_Resume_2023_1.pdf'
+import pdf from './SGreenbaum_Resume_2023_2.pdf'
 import { Wrapper } from './styles'
 
 const NavbarLinks = ({ desktop }) => (
