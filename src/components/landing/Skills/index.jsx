@@ -12,14 +12,12 @@ export const Skills = () => (
       </Thumbnail>
       <Details>
         <p>
-          I'm a Software engineer with 5+ years of technical experience
-          developing corporate systems that drive productivity, and increase
-          revenue as well as overall success.
+          I'm a Software Engineer with over 5 years of experience, focusing on full-stack web development and demonstrating proficiency in multiple programming languages. 
+          I possess robust analytical and problem-solving capabilities, excel in collaborative settings, communicate effectively, and exhibit exceptional organizational skills.
         </p>
-
         <p>
-          <strong>Skills:</strong> Ruby,Rails,SQL,Node.js, JavaScript, jQuery,
-          Docker, React, Redux,NetSuite,Linux(WSL),HTML/CSS
+          <strong>Skills:</strong> Ruby,Rails,SQL,Node.js, JavaScript, jQuery,API integration,
+          Docker, React, Redux,Netsuite(Suitescript ),Linux(WSL),HTML/CSS
         </p>
 
         <Button as={AnchorLink} href="#contact">
