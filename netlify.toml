@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
 
 [[headers]]
   for = "/*"
@@ -31,5 +32,5 @@
 
 [[redirects]]
   from = "/resume"
-  to = "/public/SGreenbaum_Resume_2025_7.pdf"
+  to = "/SGreenbaum_Resume_2025_7.pdf"
   status = 200

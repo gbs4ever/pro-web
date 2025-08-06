@@ -7,10 +7,15 @@
   "type": "commonjs",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "prettier --write *.html assets/*.css assets/*.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "npx prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^3.6.2"
+    "prettier": "^3.6.2",
+    "terser": "^5.43.1",
+    "vite": "^7.0.6"
   }
 }

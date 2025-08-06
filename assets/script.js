@@ -58,11 +58,28 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Add some interactive effects
 document.querySelectorAll('.skill-tag').forEach(tag => {
-  tag.addEventListener('mouseenter', function () {
-    this.style.transform = 'translateY(-3px) scale(1.05)';
-  });
+    tag.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-3px) scale(1.05)';
+    });
+    
+    tag.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0) scale(1)';
+    });
+});
 
-  tag.addEventListener('mouseleave', function () {
-    this.style.transform = 'translateY(0) scale(1)';
-  });
+// Hamburger menu functionality
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+});
+
+// Close mobile menu when clicking on a link
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+    });
 });
