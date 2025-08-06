@@ -4,7 +4,7 @@
   "description": "website version 2",
   "license": "MIT",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "script.js",
   "scripts": {
     "dev": "vite",
