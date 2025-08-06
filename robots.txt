@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive or admin paths (add if needed)
+# Disallow: /admin/
+# Disallow: /private/

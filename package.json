@@ -1,0 +1,16 @@
+{
+  "name": "pro-web-2",
+  "version": "1.0.0",
+  "description": "website version 2",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "prettier --write *.html assets/*.css assets/*.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
