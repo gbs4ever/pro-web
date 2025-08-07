@@ -1,11 +1,11 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  environment = { NODE_VERSION = "18" }
 
 [build.environment]
   # Use Ubuntu 22.04 LTS (Jammy) instead of deprecated Focal
   NETLIFY_BUILD_IMAGE = "jammy"
+  NODE_VERSION = "18"
 
 [[headers]]
   for = "/*"
