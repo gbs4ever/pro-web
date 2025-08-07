@@ -522,15 +522,6 @@ body {
   color: #8b5cf6;
 }
 
-/* Email display control */
-.email-full {
-  display: inline;
-}
-
-.email-short {
-  display: none;
-}
-
 /* Contact Form */
 .contact-form-wrapper {
   background: white;
@@ -736,15 +727,5 @@ body {
     hyphens: auto;
     max-width: 100%;
     display: block;
-  }
-
-  /* Show short email text on mobile */
-  .email-full {
-    display: none;
-  }
-  
-  .email-short {
-    display: inline;
-    font-size: 0.9rem;
   }
 }
