@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Preview Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .preview-card {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow: hidden;
+            margin: 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .preview-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            z-index: 2;
+        }
+        
+        .preview-title {
+            font-size: 64px;
+            font-weight: 700;
+            margin: 0 0 20px 0;
+            line-height: 1.1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .preview-subtitle {
+            font-size: 32px;
+            font-weight: 400;
+            margin: 0 0 30px 0;
+            opacity: 0.95;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .preview-description {
+            font-size: 24px;
+            font-weight: 300;
+            max-width: 800px;
+            line-height: 1.4;
+            opacity: 0.9;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .preview-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.1);
+            z-index: 1;
+        }
+        
+        .instructions {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .instructions h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        
+        .instructions p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .instructions code {
+            background: #f1f1f1;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>Social Media Preview Image Generator</h2>
+        <p>This is a 1200x630px preview card optimized for social media sharing (LinkedIn, Twitter, Facebook, etc.)</p>
+        <p><strong>Instructions:</strong></p>
+        <ol>
+            <li>Open this page in your browser</li>
+            <li>Take a screenshot of just the preview card below</li>
+            <li>Save it as <code>social-preview.jpg</code> in your <code>assets/</code> folder</li>
+            <li>The image will automatically be used when people share your site</li>
+        </ol>
+        <p><strong>Alternative:</strong> You can also use browser developer tools to capture the element directly, or use tools like <a href="https://www.figma.com" target="_blank">Figma</a> or <a href="https://www.canva.com" target="_blank">Canva</a> to create a custom 1200x630 image.</p>
+    </div>
+
+    <div class="preview-card">
+        <div class="preview-overlay"></div>
+        <div class="preview-content">
+            <h1 class="preview-title">Simcha Greenbaum</h1>
+            <h2 class="preview-subtitle">Senior Software Engineer</h2>
+            <p class="preview-description">
+                7+ years experience in full-stack development, ERP systems, and API integrations.<br>
+                Building scalable solutions that drive business success.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
