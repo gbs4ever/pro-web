@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "prettier": "^3.6.2",
-    "vite": "^7.0.7",
+    "vite": "^7.0.8",
     "terser": "^5.36.1"
   }
 }
