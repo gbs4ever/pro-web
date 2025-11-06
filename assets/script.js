@@ -83,3 +83,73 @@ document.querySelectorAll('.nav-link').forEach(link => {
     navMenu.classList.remove('active');
   });
 });
+
+// Contact form Netlify handling
+const contactForm = document.querySelector('.contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+
+    // Submit to Netlify
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData).toString()
+    })
+    .then(response => {
+      showNotification('Thank you! Your message has been sent successfully.', 'success');
+      contactForm.reset();
+    })
+    .catch(() => {
+      showNotification('Failed to send message. Please try again.', 'error');
+    });
+  });
+}
+
+// Notification system
+function showNotification(message, type = 'info') {
+  // Remove existing notification
+  const existingNotification = document.querySelector('.notification');
+  if (existingNotification) {
+    existingNotification.remove();
+  }
+
+  // Create notification element
+  const notification = document.createElement('div');
+  notification.className = `notification notification-${type}`;
+  notification.textContent = message;
+
+  // Add styles
+  notification.style.cssText = `
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    background: ${type === 'success' ? '#10b981' : type === 'error' ? '#ef4444' : '#3b82f6'};
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1001;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    font-weight: 500;
+  `;
+
+  document.body.appendChild(notification);
+
+  // Animate in
+  setTimeout(() => {
+    notification.style.transform = 'translateX(0)';
+  }, 100);
+
+  // Remove after 5 seconds
+  setTimeout(() => {
+    notification.style.transform = 'translateX(100%)';
+    setTimeout(() => {
+      notification.remove();
+    }, 300);
+  }, 5000);
+}
