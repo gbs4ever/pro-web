@@ -98,17 +98,23 @@ if (contactForm) {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: data.toString()
+      body: data.toString(),
     })
-    .then(() => {
-      showNotification('Thank you! Your message has been sent successfully.', 'success');
-      contactForm.reset();
-    })
-    .catch(err => {
-      console.error('Form error:', err);
-      showNotification('Message sent, but there was an issue with notifications.', 'success');
-      contactForm.reset();
-    });
+      .then(() => {
+        showNotification(
+          'Thank you! Your message has been sent successfully.',
+          'success'
+        );
+        contactForm.reset();
+      })
+      .catch(err => {
+        console.error('Form error:', err);
+        showNotification(
+          'Message sent, but there was an issue with notifications.',
+          'success'
+        );
+        contactForm.reset();
+      });
   });
 }
 
